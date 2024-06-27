@@ -50,7 +50,7 @@
   "Add `doom-snippets-dir' to `yas-snippet-dirs', replacing the default
 yasnippet directory."
   (setq yas-wrap-around-region nil)
-  (add-to-list 'yas-snippet-dirs 'doom-snippets-dir)
+  (add-to-list 'yas-snippet-dirs doom-snippets-dir)
   (yas-load-directory doom-snippets-dir t))
 
 ;;;###autoload
